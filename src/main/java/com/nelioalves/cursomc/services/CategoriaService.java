@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import com.nelioalves.cursomc.domain.Categoria;
 import com.nelioalves.cursomc.repositories.CategoriaRepository;
 
+//Essa é a classe que ira ficar os metodos responsaveis pelo CRUD da aplicação
+
 @Service 
 public class CategoriaService {
 	@Autowired

@@ -17,6 +17,7 @@ public class CategoriaResource {
 	@Autowired
 	private CategoriaService service;
 	
+	//faz o chamado dos metodos que estão na classe services
 	@RequestMapping(value="/{id}", method=RequestMethod.GET)
 	public ResponseEntity<?> find(@PathVariable Integer id) {
 		Categoria obj = service.buscar(id);
@@ -24,3 +25,4 @@ public class CategoriaResource {
 	}
 
 }
+ 
